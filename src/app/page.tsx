@@ -9,9 +9,9 @@ export default function Home() {
 
   return (
     <main className="flex h-screen w-screen items-center justify-center bg-slate-200">
-      <div className="aspect-square h-auto w-2/5">
+      <div className="aspect-square h-auto w-1/5 md:w-2/5">
         <QrReader read={read}>
-          <QrViewFinder className="border-[6rem]" />
+          <QrViewFinder className="border-[1.5rem] md:border-[4rem] lg:border-[6rem]" />
         </QrReader>
       </div>
     </main>
